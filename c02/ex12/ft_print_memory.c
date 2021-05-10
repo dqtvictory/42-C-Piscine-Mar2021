@@ -6,7 +6,7 @@
 /*   By: qdam <qdam@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/13 11:19:59 by qdam              #+#    #+#             */
-/*   Updated: 2021/05/10 20:56:50 by qdam             ###   ########.fr       */
+/*   Updated: 2021/05/11 00:18:17 by dqtvictor        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,10 +96,4 @@ void	*ft_print_memory(void *addr, unsigned int size)
 		addr_ch += 16;
 	}
 	return (addr);
-}
-
-int main()
-{
-	char *hehe = "asklfdsjlk fsdf lksadfl sadjlkf jasldfjsadljfsadoiu fasduuf8asdfhsad sayf98ds7f97sadfsa dfsd8fdsa sa0";
-	ft_print_memory(hehe, 110);
 }
